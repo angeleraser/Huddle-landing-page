@@ -1,0 +1,25 @@
+:root {
+  /* Colors  */
+  --VeryPaleCyan: hsl(193, 100%, 96%);
+  --VeryDarkCyan: hsl(192, 100%, 9%);
+  --VeryDarkCyanOpacity: hsla(192, 100%, 9%, .1);
+  --GrayishBlue: hsl(208, 11%, 55%);
+  --Pink: hsl(322, 100%, 66%);
+
+  /* Weights  */
+  --light: 400;
+  --bold: 600;
+  --bolder: 700;
+}
+
+/* Modifiers  */
+
+.--is-white {
+  color: var(--VeryDarkCyan);
+  background-color: #ffffff;
+}
+
+.--is-pink {
+  color: var(--VeryPaleCyan);
+  background-color: var(--Pink);
+}

@@ -1,0 +1,236 @@
+@media screen and (min-width:1023px) {
+  .flex-content-wrapper {
+    padding: 0 80px;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+
+  .get-started-button {
+    height: 50px;
+  }
+
+  /* Header  */
+  .main-header {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    background-image: url('../images/bg-hero-desktop.svg');
+  }
+
+  .main-header__banner-section {
+    flex-basis: 40%;
+    align-items: flex-start;
+    margin-top: 165px;
+    margin-bottom: 60px;
+  }
+
+  .main-header__banner-section .title {
+    margin-bottom: 20px;
+    font-size: 38px;
+  }
+
+  .main-header__banner-section .text,
+  .main-header__banner-section .title {
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .main-header__banner-section .get-started-button {
+    margin: 0;
+    margin-top: 20px;
+    width: 220px;
+  }
+
+  .main-header .mockup-image {
+    align-self: center;
+    width: 55%;
+    max-width: 720px;
+    max-height: 500px;
+    margin: 50px 0 50px 30px;
+  }
+
+  .try-it-button {
+    height: 45px;
+    width: 200px;
+  }
+
+  .main-header .logo {
+    height: 25px;
+  }
+
+  /* Main content */
+  .main-content {
+    padding-top: 160px;
+    padding-bottom: 250px;
+  }
+
+  .main-content__card-content-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .card-content {
+    margin-bottom: 40px;
+    min-width: 350px;
+  }
+
+  .card-content {
+    height: 475px;
+  }
+
+  .card-content.ready-to-build {
+    height: auto;
+  }
+
+  .card-content.ready-to-build {
+    max-width: 680px;
+    flex-direction: column;
+    align-items: center;
+    bottom: -110px;
+    padding: 40px 25px 30px;
+  }
+
+  .card-content.ready-to-build .title {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+
+  .card-content.ready-to-build .get-started-button {
+    width: 400px;
+    height: 77px;
+    font-size: 18px;
+    border-radius: 60px;
+  }
+
+  /* Footer  */
+  .main-footer {
+    padding-top: 180px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+
+  .footer__item-content-wrapper {
+    flex-wrap: wrap;
+    max-width: 350px;
+  }
+
+  .footer-logo {
+    height: 45px;
+    transform: scale(1);
+    align-self: flex-start;
+    margin-bottom: 20px;
+  }
+
+  .contact-data__item {
+    margin: 15px 0;
+  }
+
+  .footer-nav {
+    align-self: center;
+    padding-top: 45px;
+  }
+
+  .footer-nav .footer__item-content-wrapper {
+    max-height: 150px;
+    max-width: 100%;
+    align-content: space-around;
+    width: 400px;
+  }
+
+  .footer__social-link-content-wrapper {
+    height: 150px;
+  }
+
+  .footer__social-link {
+    margin-top: 70px;
+  }
+
+  .footer__copyright-text {
+    text-align: right;
+    color: var(--VeryPaleCyan);
+  }
+}
+
+@media screen and (min-width:1280px) {
+
+  /* Main content */
+  .main-content {
+    padding-bottom: 300px;
+  }
+
+  .main-content__card-content-wrapper {
+    flex-direction: row;
+    width: 100%;
+    margin-top: 120px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .card-content {
+    max-width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 60px 0;
+    height: auto;
+  }
+
+  .card-content__data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: auto;
+    margin-left: 100px;
+  }
+
+  .card__title {
+    width: 100%;
+    font-size: 30px;
+    text-align: left;
+    flex-basis: auto;
+    margin-top: 0;
+  }
+
+  .card__description {
+    max-width: 500px;
+    text-align: left;
+    font-size: 18px;
+  }
+
+  .card__image {
+    order: 1;
+    height: 320px;
+    width: 400px;
+    margin-right: 30px;
+  }
+
+  .card-content:nth-child(2) .card-content__data {
+    margin-left: 0;
+    margin-right: 30px;
+  }
+
+  .card-content:nth-child(2) .card__image {
+    order: 0;
+    margin-left: 100px;
+    margin-right: 0;
+  }
+
+  .card-content.ready-to-build {
+    max-width: 786px;
+    padding: 60px 30px 50px;
+  }
+
+  .main-footer {
+    padding-top: 180px;
+    padding-bottom: 50px;
+  }
+
+
+}
